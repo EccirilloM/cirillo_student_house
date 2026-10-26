@@ -1,0 +1,12 @@
+import React from 'react';
+const Icon = ({ children, ...props }) => <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{children}</svg>;
+export const Arrow = () => <Icon><path d="M4 12h15m-6-6 6 6-6 6"/></Icon>;
+export const Cube = () => <Icon><path d="m12 3 9 5v8l-9 5-9-5V8l9-5Zm0 10 9-5M12 13 3 8m9 5v8M7 5.8l9 5"/></Icon>;
+export const Bed = () => <Icon><path d="M3 18V8m18 10V8M3 15h18M5 15V6h14v9M7 10h4v5m2 0v-5h4v5M3 18v2m18-2v2"/></Icon>;
+export const Home = () => <Icon><path d="m3 11 9-8 9 8M5 10v11h14V10m-10 11v-7h6v7"/></Icon>;
+export const Pin = () => <Icon><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></Icon>;
+export const Book = () => <Icon><path d="M12 5v16m0-16C8 2 3 3 3 3v16s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2Z"/></Icon>;
+export const Bus = () => <Icon><rect x="5" y="3" width="14" height="16" rx="3"/><path d="M5 11h14M8 19v2m8-2v2M9 15h.01M15 15h.01"/></Icon>;
+export const Bag = () => <Icon><path d="M5 8h14l1 13H4L5 8Zm3 0V6a4 4 0 0 1 8 0v2"/></Icon>;
+export const Plus = () => <Icon><path d="M12 5v14M5 12h14"/></Icon>;
+export const BrandIcon = () => <Icon width="40" height="40" viewBox="0 0 40 40"><path d="m4 18 16-14 16 14v18H25V24H15v12H4V18Z"/><path d="m9 20 11-9 11 9v11h-2M9 31V20m5 0 6-5 6 5"/></Icon>;
